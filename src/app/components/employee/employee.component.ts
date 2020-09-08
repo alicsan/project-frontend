@@ -7,7 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EmployeeComponent implements OnInit {
 
+  public name: string;
+  public last_name: string;
+  public department: string;
+  public empId: number;
+
   constructor() { 
+    this.name = 'Jane';
+    this.last_name='Doe';
+    this.department='IT';
+    this.empId=10956378;
     console.log("componente empleado cargado");
   }
 
